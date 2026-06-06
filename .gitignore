@@ -1,0 +1,43 @@
+# ── CS2 Demo Files ────────────────────────────────────────────────
+# Raw demo files are 100–200 MB each and cannot be redistributed
+*.dem
+data/raw_dems/
+
+# ── Pipeline Output Data ──────────────────────────────────────────
+# Parquet files can be large and are reproducible by running the pipeline
+*.parquet
+outputs/*.parquet
+
+# Keep sample visualisation PNGs (small, good for README showcase)
+# outputs/sample/*.png  <-- NOT ignored, commit these
+
+# ── Python ───────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+env/
+
+# ── Jupyter / Colab ───────────────────────────────────────────────
+.ipynb_checkpoints/
+# Uncomment the next line if you don't want to track .ipynb files
+# *.ipynb
+
+# ── Google Drive / Credentials ───────────────────────────────────
+.credentials/
+token.json
+*.json.bak
+
+# ── OS ────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
