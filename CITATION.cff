@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this pipeline or its findings, please cite:"
+title: "Player Role Consistency and Round Outcomes in Counter-Strike 2"
+authors:
+  - family-names: "Kumar"
+    given-names: "Sachin"
+    affiliation: "Indian Institute of Information Technology, Sri City"
+type: software
+date-released: "2026-07-07"
+notes: "Bachelor's Thesis Project. Role discovery follows Drachen, Canossa & Yannakakis (IEEE CIG 2009)."
